@@ -1,0 +1,79 @@
+body {
+
+    background: url(../img/bg.png) no-repeat fixed;
+    /*center center*/
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    width: 960px;
+}
+
+.header {
+    margin: 60px;
+
+}
+
+.logo {
+    float: left;
+    width: 250px;
+
+}
+
+.contacts {
+    float: right;
+    margin-top: 100px;
+    margin-right: 50px;
+
+}
+
+.contacts:after {
+    content: "";
+    clear: both;
+}
+p {
+    color: #e6e6e6;
+    font-weight: bold;
+    text-align: left;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 10.16px;
+    line-height: 14px;
+}
+
+/*.container:before {*/
+    /*content: "";*/
+    /*clear: both;*/
+/*}*/
+.container {
+    margin: 60px;
+    display: block;
+    clear: both;
+}
+ .image {
+     display: inline-block;
+     margin-bottom: 10px;
+ }
+
+.image p {
+    color: #e6e6e6;
+    font-weight: bold;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+footer {
+    clear: both;
+    position: relative;
+    margin-top: 20%;
+}
+
+footer p {
+    color: #e6e6e6;
+    font-weight: bold;
+    text-align: center;
+    font-family: Tahoma, Verdana, Segoe, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+}

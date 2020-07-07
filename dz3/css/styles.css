@@ -11,6 +11,8 @@
 
 body {
     font-family: helvetica, Tahoma, Arial, sans-serif;
+    background: url('../img/bg_main.png') no-repeat;
+    background-size: cover;
 }
 
 .clearfix:after {
@@ -23,6 +25,14 @@ body {
     width: 100%;
     background: url(../img/bg-menu.png) repeat-x;
 }
+
+.content {
+    position: relative;
+
+}
+
+
+
 
 .menu {
     display: inline-block;
@@ -66,17 +76,106 @@ body {
     display: inline-block;
 }
 
-.menu-right > a {
+.menu-right > a, input:last-child {
     background: linear-gradient(
             to top, rgba(0, 0, 0, 0.3) 20%, rgba(78, 171, 218, 0.3) 50%,
             rgba(255, 255, 255, 0.3) 100%), #4299d2;;
     background-blend-mode: overlay;
+    border: #4299d2 1px solid;
 
 }
 
-.content {
-    background: url('../img/bg_main.png') no-repeat;
-    background-size: cover;
+.content-header, .content-form {
+    margin: 15% 30% 2px;
+    background-color: rgba(0,0,0, 0.6);
+    width: 40%;
 }
 
+.content-form {
+    margin-top: 0;
 
+}
+
+.content-form img {
+    margin: 5% 30% 0;
+}
+
+.content-form a {
+    display: block;
+}
+
+.content-header > p {
+    text-align: center;
+    font-size: 24px;
+    color: white;
+    padding: 20px;
+}
+
+.form {
+    width: inherit;
+}
+form {
+    position: relative;
+    margin-left: 75%;
+    width: 100%;
+
+
+}
+
+label {
+    color: white;
+}
+
+input {
+    display: block;
+    align-content: center;
+    width: 85%;
+    background: black;
+    color: #cccccc;
+    border-right: 0;
+    border-bottom: grey 1px solid;
+    margin: 10px 0 20px;
+    line-height: 35px;
+    padding-left: 5%;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2) inset,
+    inset  -1px -1px 1px -1px rgba(255,255,255, 1);
+
+}
+
+input:nth-child(6), label{
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+label {
+    margin-left: 2px;
+    color: #cccccc;
+    padding-bottom: 8px;
+}
+
+input:first-child {
+    margin-top: 20px;
+}
+
+input:last-child{
+    color: white;
+    width: 55%;
+    margin-left: 20%;
+    border-radius: 2px
+}
+
+.footer {
+    margin-top: 10px;
+    width: 43%;
+    margin-left: 25%;
+    position: relative;
+}
+.footer p {
+    color: #cccccc;
+    font-size: 11px;
+    text-align: center;
+
+
+}

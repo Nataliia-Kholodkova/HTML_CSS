@@ -1,0 +1,134 @@
+body {
+    margin-left: 150px;
+    width: 1200px;
+    margin-right: 150px;
+    margin-top: 50px;
+    font-family: Arial;;
+    font-size: 14px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.logo {
+    margin-bottom: 45px;
+}
+aside {
+    float: left;
+    width: auto;
+}
+
+aside li {
+    line-height: 40px;
+    color: #656363;
+    width: 200px;
+    padding-left: 20px;
+    border: #c8c8c8 solid 1px;
+}
+
+aside li:hover {
+
+    padding-left: 30px;
+    width: 190px;
+
+}
+
+.menu {
+    display: inline-block;
+    background: #545454;
+    background: linear-gradient(to top, #444343, #5e5e5e);
+    width: 100%;
+}
+
+.menu li {
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    line-height: 40px;
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.menu li:first-child{
+    padding-left: 20px;
+    padding-right: 60px;
+}
+.menu li:nth-child(2){
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu li:hover{
+    /*border-left: 1px solid #838383;*/
+    border-right: 1px solid #838383;
+    background: #3e3e3e;
+    background: linear-gradient(to top, #2e2e2e, #4a4a4a);
+}
+
+.main-box {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    float:none;
+    width: 920px;
+    display: inline-block;
+
+}
+
+.bike {
+    border: #c8c8c8 solid 1px;
+    margin-bottom: 10px;
+}
+
+.bike img{
+    padding: 50px 50px 50px 100px;
+    width: 65%;
+
+}
+
+.text {
+    margin-left: 10px;
+}
+ p{
+     color: #2c2c2c;
+     margin: 25px;
+     margin-right: 35px;
+     line-height: 25px;
+     font-size: 14px;
+ }
+ footer {
+    height: 40px;
+     background: #e1e1e1;
+     margin-bottom: 30px;
+ }
+ .footer-menu {
+     display: inline-block;
+     float: left;
+
+ }
+.footer-menu li {
+    text-decoration: none;
+    display: inline-block;
+    color: #2c2c2c;
+    padding-left: 10px;
+    padding-right: 50px;
+}
+
+
+.footer-menu li:last-child {
+    text-align: right;
+    padding-left: 430px;
+
+}
+
+
+.footer-menu li a {
+    text-decoration: none;
+    line-height: 40px;
+    padding: 10px;
+    color: #2c2c2c;
+}
+
+.footer-menu li a:hover {
+    text-decoration: underline;
+}
