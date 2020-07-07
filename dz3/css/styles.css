@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'helvetica';
+    src: url('../fonts/helvetica-webfont.eot');
+    src: url('../fonts/helvetica-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/helvetica-webfont.woff2') format('woff2'),
+    url('../fonts/helvetica-webfont.woff') format('woff'),
+    url('../fonts/helvetica-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: helvetica, Tahoma, Arial, sans-serif;
+}
+
+.clearfix:after {
+    clear: both;
+    content: '';
+    display: block;
+}
+
+.header {
+    width: 100%;
+    background: url(../img/bg-menu.png) repeat-x;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    margin-right: 1%;
+}
+
+.menu > a {
+    font-size: 14px;
+    text-align: center;
+    color: #60b5ed;
+    padding: 10px 10px 10px;
+    text-decoration: none;
+    height: inherit;
+    display: inline-block;
+}
+
+.menu > a:hover {
+    background: #4eabda;
+    color: white;
+}
+
+.menu > a:nth-child(5) {
+    border-right: #56a2dc 1px solid;
+}
+
+.menu-left, .menu-right {
+    display: inline-block;
+}
+
+.menu-left > a, .menu-right > a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 10px 10px 10px;
+    display: inline-block;
+    height: inherit;
+}
+
+.menu-left > img {
+    display: inline-block;
+}
+
+.menu-right > a {
+    background: linear-gradient(
+            to top, rgba(0, 0, 0, 0.3) 20%, rgba(78, 171, 218, 0.3) 50%,
+            rgba(255, 255, 255, 0.3) 100%), #4299d2;;
+    background-blend-mode: overlay;
+
+}
+
+.content {
+    background: url('../img/bg_main.png') no-repeat;
+    background-size: cover;
+}
+
+
