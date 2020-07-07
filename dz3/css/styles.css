@@ -12,7 +12,7 @@
 body {
     font-family: helvetica, Tahoma, Arial, sans-serif;
     background: url('../img/bg_main.png') no-repeat;
-    background-size: cover;
+    background-size: 100%;
 }
 
 .clearfix:after {
@@ -26,13 +26,11 @@ body {
     background: url(../img/bg-menu.png) repeat-x;
 }
 
-.content {
-    position: relative;
-
+.main {
+    width: 100%;
+    height: 1064px;
+    margin: 0 auto;
 }
-
-
-
 
 .menu {
     display: inline-block;
@@ -82,18 +80,20 @@ body {
             rgba(255, 255, 255, 0.3) 100%), #4299d2;;
     background-blend-mode: overlay;
     border: #4299d2 1px solid;
+}
 
+.content {
+    padding: 15% 20%;
 }
 
 .content-header, .content-form {
-    margin: 15% 30% 2px;
-    background-color: rgba(0,0,0, 0.6);
-    width: 40%;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 80%;
 }
 
 .content-form {
     margin-top: 0;
-
+    padding-bottom: 20px;
 }
 
 .content-form img {
@@ -113,40 +113,55 @@ body {
 
 .form {
     width: inherit;
+    margin-left: 30%;
 }
+
 form {
     position: relative;
-    margin-left: 75%;
     width: 100%;
-
-
 }
 
 label {
     color: white;
 }
 
+input:focus {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: #1b5288;
+    background-blend-mode: color-dodge;
+    box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 5px 2px rgba(0, 0, 0, 0.2),
+    0 0 1px rgba(75, 75, 75, 1),
+    0 0 9px 1px rgba(47, 127, 197, 0.77);
+}
+
+input:focus::placeholder {
+    color: white;
+}
+
+input::placeholder {
+    color: #cccccc;
+}
+
 input {
     display: block;
     align-content: center;
-    width: 85%;
-    background: black;
-    color: #cccccc;
+    width: 42%;
+    background: #0f0f0f;
+    color: white;
     border-right: 0;
     border-bottom: grey 1px solid;
     margin: 10px 0 20px;
     line-height: 35px;
     padding-left: 5%;
     box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.2) inset,
-    inset  -1px -1px 1px -1px rgba(255,255,255, 1);
-
+    inset -1px -1px 1px -1px rgba(255, 255, 255, 1);
 }
 
-input:nth-child(6), label{
+input:nth-child(6), label {
     width: auto;
     display: inline-block;
     vertical-align: middle;
-
 }
 
 label {
@@ -159,23 +174,24 @@ input:first-child {
     margin-top: 20px;
 }
 
-input:last-child{
+input:last-child {
     color: white;
-    width: 55%;
-    margin-left: 20%;
+    width: 30%;
+    padding-left: 2px;
+    padding-right: 2px;
+    margin-left: 10%;
     border-radius: 2px
 }
 
 .footer {
     margin-top: 10px;
-    width: 43%;
+    width: 45%;
     margin-left: 25%;
     position: relative;
 }
+
 .footer p {
     color: #cccccc;
     font-size: 11px;
     text-align: center;
-
-
 }
