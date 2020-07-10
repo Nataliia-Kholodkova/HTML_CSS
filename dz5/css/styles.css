@@ -217,6 +217,7 @@ section {
     align-items: baseline;
     height: 132px;
     position: relative;
+    transform: translate(0px, -4px);
 }
 
 .section-form:nth-child(2) {
@@ -225,7 +226,10 @@ section {
 }
 
 .section-form:last-child {
-    line-height: 9px;
+    width: 265px;
+    line-height: 7px;
+    /*transform: translate(0px, 4px);*/
+    margin-left: 1px;
 }
 
 .section-form-header {
@@ -244,9 +248,8 @@ section {
 
 .section-form:first-child .section-form-header {
     text-align: center;
-    margin-bottom: -15px;
-    margin-right: 10px;
-
+    margin-bottom: -13px;
+    margin-right: 22px;
 }
 
 .form-header {
@@ -255,7 +258,7 @@ section {
     font-weight: 900;
     font-size: 10px;
     display: inline-block;
-    margin-bottom: 9px;
+    margin-bottom: 6px;
 }
 
 .left-form, .right-form, .middle-form {
@@ -275,15 +278,23 @@ section {
 }
 
 .section-form:last-child .right-form div p,
-.section-form .left-form div p {
+.section-form:last-child .left-form div p {
     display: inline-block;
     font-family: "Lucida Sans Unicode", sans-serif;
     font-weight: 500;
     font-size: 10px;
     color: black;
-    width: 75px;
+    width: 85px;
 }
 
+.section-form:last-child .right-form div p {
+    font-size: 9px;
+    width: 85px;
+}
+.section-form:last-child .right-form div span,
+.section-form:last-child .left-form div span {
+    font-size: 8px;
+}
 .right-form {
     margin-left: 19px;
     margin-right: 10px;
@@ -303,7 +314,7 @@ section {
 }
 
 .middle-form div {
-    margin-bottom: 3px;
+    margin-bottom: 4px;
 }
 
 .middle-form div div {
@@ -335,7 +346,7 @@ section {
 }
 
 .middle-form div:nth-child(3) p {
-    transform: translate(1px, -25px);
+    transform: translate(-6px, -25px);
 
 }
 
@@ -354,7 +365,7 @@ section {
 .right-form div select,
 .left-form div select,
 .middle-form div select {
-    height: 15px;
+    height: 14px;
     border-bottom: none;
     -webkit-box-shadow: inset 1px 1px 1px 0px rgba(43, 41, 43, 0.75);
     -moz-box-shadow: inset 1px 1px 1px 0px rgba(43, 41, 43, 0.75);
@@ -383,13 +394,24 @@ section {
 
 .section-form:last-child .left-form {
     border-right: 1px solid #949494;
-    padding-right: 17px;
+    padding-right: 13px;
+    transform: translate(0px, 4px)
 }
 
 .section-form:last-child .right-form {
     margin-left: 0;
+    margin-right: 0;
+    width: 50px;
     transform: translate(0, -10px);
 }
+
+.section-form:last-child .right-form div p{
+    width: 65px;
+}
+.section-form:last-child .section-form-header {
+    transform: translate(-5px, 5px);
+}
+
 
 .section-form:last-child .right-form p, .section-form:last-child .right-form select {
     display: block;
@@ -421,6 +443,10 @@ section {
 
 }
 
+.section-form:last-child .btn-link {
+    right: 13px;
+    bottom: -20px;
+}
 .middle-form div label {
     font-family: "Lucida Sans Unicode", sans-serif;
     font-size: 12px;
@@ -430,10 +456,15 @@ section {
 
 .middle-form .wrap {
     display: inline-block;
+    transform: translate(0px, 6px);
 }
 
 input[type="checkbox"] {
     width: 10px;
     height: 10px;
     margin-right: 2px;
+}
+
+.section-form:last-child .right-form div p{
+    width: 65px;
 }
