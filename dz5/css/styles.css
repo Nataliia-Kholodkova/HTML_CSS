@@ -1,13 +1,18 @@
 body {
-
     font-family: "Lucida Sans Unicode", sans-serif;
     background-color: #c8c8c8;
 }
 
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
 /*HEAD PART*/
 
-header{
-    margin:0;
+header {
+    margin-bottom: 14px;
     padding: 0;
 }
 
@@ -24,23 +29,24 @@ header{
     display: inline-block;
 }
 
-.main > .header{
+.main > .header {
     width: auto;
     padding-left: 11px;
 }
+
 .header-phone {
     margin-right: 11px;
     padding-left: 25px;
 }
 
 header .form {
-    background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 ) #99cccc;
-    -webkit-box-shadow: 3px 3px 3px 0 rgba(150,150,150,0.75);
-    -moz-box-shadow: 3px 3px 3px 0 rgba(150,150,150,0.75);
-    box-shadow: 3px 3px 3px 0 rgba(150,150,150,0.75);
+    background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256) #99cccc;
+    -webkit-box-shadow: 3px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    -moz-box-shadow: 3px 3px 3px 0 rgba(150, 150, 150, 0.75);
+    box-shadow: 3px 3px 3px 0 rgba(150, 150, 150, 0.75);
     border-radius: 3px;
     height: 25px;
-    transform: translate3d(0, -1px,0);
+    transform: translate3d(0, -1px, 0);
 
 }
 
@@ -70,10 +76,10 @@ header .form > form > input {
 
 .form > form > input::-webkit-input-placeholder {
     font-size: 11px;
-    transform:translate3d(0,-2px,3px)
+    transform: translate3d(0, -2px, 3px)
 }
 
-header .form > form > .btn-link {
+header .header form .btn-link {
     background-color: transparent;
     text-decoration: none;
     border: none;
@@ -84,7 +90,7 @@ header .form > form > .btn-link {
     padding-left: 0;
     margin: 0;
     cursor: pointer;
-    transform: translate3d(2px,-1px,0px);
+    transform: translate3d(2px, -1px, 0px);
     padding-right: 5px;
 
 }
@@ -107,6 +113,327 @@ header .form > a:last-child {
 
 .navi {
     margin-left: 8px;
-    transform: translate3d(0px,-1px,0px);
+    transform: translate3d(0px, -1px, 0px);
 }
 
+.main-img {
+    margin-left: 17px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.navigation {
+    background: linear-gradient(to top, black, #2b3034 87%, #576068) black;
+    border: #0d1642 solid 1px;
+    border-radius: 5px;
+    -webkit-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    mix-blend-mode: multiply;
+    margin-left: 17px;
+    width: 910px;
+    height: 31px;
+}
+
+.navigation-list {
+    padding-left: 15%;
+    display: inline-block;
+}
+
+.navigation-list > ul > li {
+    float: left;
+    display: block;
+    padding: 10px;
+    margin: 1px;
+    margin-right: 10px;
+}
+
+.navigation-list > ul > li > a {
+    display: block;
+    text-decoration: none;
+    color: #b1bcc0;
+    font-size: 13px;
+    /*line-height: 6px;*/
+    text-align: center;
+}
+
+.navigation-list > ul > li > a:hover, .navigation-list > ul > li:hover {
+    color: white;
+    background: linear-gradient(to bottom, #206988 0%, #114165 59%, #0c3256 100%);
+    border-radius: 10px;
+    height: 9px;
+
+}
+
+.navigation-items {
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.navigation-items > a, .navigation-items > p {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: #b1bcc0;
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    padding: 9px;
+}
+
+.navigation-items > a > span, .navigation-items > p > span {
+    color: #0d5a8f;
+    font-size: 12px;
+    margin-left: 1px;
+}
+
+.navigation-items > p > span {
+    margin-left: 9px;
+}
+
+.navigation-items > a > img {
+    margin-right: 5px;
+}
+
+.navigation-items > p {
+    padding-top: 11px;
+}
+
+/*FORMS*/
+
+section {
+    margin-left: 17px;
+}
+
+.section-form {
+    border: #9c9c9d 1px solid;
+    -webkit-box-shadow: 5px 5px 5px 0 rgba(104, 104, 104, 0.75);
+    -moz-box-shadow: 5px 5px 5px 0 rgba(104, 104, 104, 0.75);
+    box-shadow: 5px 5px 5px 0 rgba(104, 104, 104, 0.75);
+    border-radius: 14px;
+    margin-right: 3px;
+    margin-left: 6px;
+    display: inline-block;
+    align-items: baseline;
+    height: 132px;
+    position: relative;
+}
+
+.section-form:nth-child(2) {
+    width: 193px;
+    line-height: 11px;
+}
+
+.section-form:last-child {
+    line-height: 9px;
+}
+
+.section-form-header {
+    margin-left: 14px;
+    color: #154468;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 12px;
+    margin-bottom: 4px;
+
+}
+
+.section-form:nth-child(2) .section-form-header {
+    margin-bottom: 8px;
+}
+
+.section-form:first-child .section-form-header {
+    text-align: center;
+    margin-bottom: -15px;
+    margin-right: 10px;
+
+}
+
+.form-header {
+    color: #154468;
+    font-family: Arial, sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    display: inline-block;
+    margin-bottom: 9px;
+}
+
+.left-form, .right-form, .middle-form {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 2px;
+}
+
+.right-form div p,
+.left-form div p {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: black;
+    width: 75px;
+}
+
+.section-form:last-child .right-form div p,
+.section-form .left-form div p {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    color: black;
+    width: 75px;
+}
+
+.right-form {
+    margin-left: 19px;
+    margin-right: 10px;
+}
+
+.middle-form {
+    margin-right: 8px;
+}
+
+.right-form .form-header {
+    text-align: right;
+    margin-left: 132px;
+}
+
+.left-form div, .right-form div {
+    margin-bottom: 1px;
+}
+
+.middle-form div {
+    margin-bottom: 3px;
+}
+
+.middle-form div div {
+    margin-bottom: 0;
+    margin-top: 1px;
+}
+
+.middle-form div label {
+    width: 65px;
+
+}
+
+.middle-form div p {
+    display: inline-block;
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 10px;
+    text-align: right;
+    width: 39px;
+}
+
+.middle-form p.slash {
+    width: 2px;
+}
+
+.middle-form div:nth-child(2) p {
+    font-family: Arial, sans-serif;
+    font-size: 11px;
+    color: black;
+}
+
+.middle-form div:nth-child(3) p {
+    transform: translate(1px, -25px);
+
+}
+
+.left-form div span,
+.right-form div span:first-child {
+    font-size: 9px;
+    color: #77858b;
+}
+
+.left-form div span:first-child,
+.right-form div span:first-child {
+    font-size: 8px;
+    color: #77858b;
+}
+
+.right-form div select,
+.left-form div select,
+.middle-form div select {
+    height: 15px;
+    border-bottom: none;
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(43, 41, 43, 0.75);
+    -moz-box-shadow: inset 1px 1px 1px 0px rgba(43, 41, 43, 0.75);
+    box-shadow: inset 1px 1px 1px 0px rgba(43, 41, 43, 0.75);
+    background: url(../img/arrow.png) no-repeat right white;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position-x: right;
+}
+
+.right-form div select,
+.left-form div select {
+    width: 100px;
+    height: 15px;
+}
+
+.section-form:last-child .right-form div select,
+.section-form:last-child .left-form div select {
+    width: 56px;
+    height: 15px;
+}
+
+.section-form:last-child .left-form div:nth-child(2) select {
+    width: 45px;
+}
+
+.section-form:last-child .left-form {
+    border-right: 1px solid #949494;
+    padding-right: 17px;
+}
+
+.section-form:last-child .right-form {
+    margin-left: 0;
+    transform: translate(0, -10px);
+}
+
+.section-form:last-child .right-form p, .section-form:last-child .right-form select {
+    display: block;
+}
+
+.middle-form div select {
+    height: 15px;
+    width: 52px;
+}
+
+.right-form div:nth-child(4) select,
+.left-form div:nth-child(4) select {
+    width: 56px;
+}
+
+.section-form .btn-link {
+    background-color: transparent;
+    text-decoration: underline;
+    border: none;
+    width: auto;
+    border-right: 1px solid white;
+    color: #154467;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    position: absolute;
+    right: 14px;
+    bottom: 7px;
+
+}
+
+.middle-form div label {
+    font-family: "Lucida Sans Unicode", sans-serif;
+    font-size: 12px;
+    margin-right: 2px;
+
+}
+
+.middle-form .wrap {
+    display: inline-block;
+}
+
+input[type="checkbox"] {
+    width: 10px;
+    height: 10px;
+    margin-right: 2px;
+}
