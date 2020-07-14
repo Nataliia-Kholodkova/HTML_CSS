@@ -1,0 +1,197 @@
+@font-face {
+    font-family: 'League Gothicregular';
+    src: url('../fonts/leaguegothic-400-normal-webfont.eot');
+    src: url('../fonts/leaguegothic-400-normal-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/leaguegothic-400-normal-webfont.woff2') format('woff2'),
+    url('../fonts/leaguegothic-400-normal-webfont.woff') format('woff'),
+    url('../fonts/leaguegothic-400-normal-webfont.ttf') format('truetype'),
+    url('../fonts/leaguegothic-400-normal-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-bold-webfont.eot');
+    src: url('../fonts/opensans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-bold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-bold-webfont.woff') format('woff'),
+    url('../fonts/opensans-bold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open sans';
+    src: url('../fonts/opensans-bolditalic-webfont.eot');
+    src: url('../fonts/opensans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-bolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-bolditalic-webfont.woff') format('woff'),
+    url('../fonts/opensans-bolditalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-bolditalic-webfont.svg#open_sansbold_italic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-extrabold-webfont.eot');
+    src: url('../fonts/opensans-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-extrabold-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-extrabold-webfont.woff') format('woff'),
+    url('../fonts/opensans-extrabold-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-extrabold-webfont.svg#open_sansextrabold') format('svg');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-extrabolditalic-webfont.eot');
+    src: url('../fonts/opensans-extrabolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-extrabolditalic-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-extrabolditalic-webfont.woff') format('woff'),
+    url('../fonts/opensans-extrabolditalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-extrabolditalic-webfont.svg#open_sansextrabold_italic') format('svg');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-italic-webfont.eot');
+    src: url('../fonts/opensans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-italic-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-italic-webfont.woff') format('woff'),
+    url('../fonts/opensans-italic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-italic-webfont.svg#open_sansitalic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-light-webfont.woff') format('woff'),
+    url('../fonts/opensans-light-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-light-webfont.svg#open_sanslight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('../fonts/opensans-lightitalic-webfont.eot');
+    src: url('../fonts/opensans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-lightitalic-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-lightitalic-webfont.woff') format('woff'),
+    url('../fonts/opensans-lightitalic-webfont.ttf') format('truetype'),
+    url('../fonts/opensans-lightitalic-webfont.svg#open_sanslight_italic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+
+}
+
+.clearfix:after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+body {
+    font-family: "League Gothicregular", sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background: url(../img/bg.png);
+    background-size: cover;
+    box-sizing: border-box;
+    background-position: 50% 0;
+    border-bottom: 1px solid #33253a;
+}
+
+.image, .list_menu, .article {
+    display: inline-block;
+}
+
+.list_menu li {
+    list-style: none;
+}
+
+.list_menu a {
+    text-decoration: none;
+}
+
+/*HEADER*/
+
+.header_menu {
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.header_menu__menu {
+    vertical-align: middle;
+}
+
+.header_menu__menu a {
+    font-size: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.4);
+    padding: 0 5px 2px;
+    width: auto;
+}
+
+/*HEAR SLIDE*/
+
+.header_slide {
+    background: rgba(0, 0, 0, 0.3);
+    position: relative;
+    width: 100%;
+}
+
+.header_slide_img {
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto;
+}
+
+.header_slide_article__header {
+    color: white;
+}
+
+.header_slide_article__subheader {
+    color: #edbfff;
+}
+
+.header_slide_article p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+.header_slide_img_arrow__left,
+.header_slide_img_arrow__right {
+    position: absolute;
+}
+
+.header_slide_article {
+    position: relative;
+}
+
+.header_slide_article__header,
+.header_slide_article__subheader,
+.header_slide_article p {
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header_slide_img__img {
+    position: absolute;
+}
+
