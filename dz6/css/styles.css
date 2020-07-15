@@ -103,11 +103,11 @@
 
 body {
     font-family: "League Gothicregular", sans-serif;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 header {
-    background: url(../img/bg.png);
+    background: url(../img/bg.png) no-repeat;
     background-size: cover;
     box-sizing: border-box;
     background-position: 50% 0;
@@ -194,4 +194,65 @@ header {
 .header_slide_img__img {
     position: absolute;
 }
+
+/*SECTION DESCRIPTION*/
+
+section {
+    width: 100%;
+
+}
+
+.description {
+    border-top: 1px solid #33253a;
+    background: linear-gradient(to top, #322539, #745083) no-repeat;
+    border-bottom: 2px solid #f9f9f9;
+}
+
+.section_description {
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: relative;
+    display: block;
+}
+
+section h2 {
+    font-size: 30px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+}
+
+section p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+}
+
+.section_about_links a, .nav_link {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.section_about_links__nav a:hover, .nav_link:hover {
+    text-shadow: 0 0 8px rgba(252, 252, 252, 0.8);
+}
+
+.section_about_description {
+    position: relative;
+}
+
+section h2, section p {
+    color: white;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+
+
+
+
+
 

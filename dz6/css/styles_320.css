@@ -98,4 +98,67 @@
         margin-left: 38%;
     }
 
+    /*SECTION DESCRIPTION*/
+    .description {
+        height: 600px;
+    }
+
+    .section_description {
+        width: 320px;
+        margin: 0 auto;
+        padding-top: 71px;
+    }
+
+    section h2 {
+        font-size: 24px;
+        margin-bottom: 0.5%;
+        word-spacing: -2px;
+    }
+
+    section p {
+        line-height: 1.5;
+        word-spacing: -0.5px;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+    }
+
+    .section_description_article {
+        overflow: hidden;
+        box-sizing: border-box;
+        margin-bottom: 5.5%;
+    }
+
+    .section_about_description {
+        box-sizing: border-box;
+        width: 80%;
+        margin-left: 26%;
+        margin-bottom: 7.5%;
+    }
+
+    .section_about_description:nth-child(2) {
+        margin-bottom: 12.4%;
+    }
+
+    .section_about_description_sprite {
+        position: absolute;
+        background: url(../img/logos_about.png) no-repeat;
+        width: 29px;
+        height: 31px;
+    }
+
+    .sprite_clue, .sprite_message, .sprite_notes {
+        background-position: 0 0;
+        top: -1px;
+        left: -53px;
+    }
+
+    .section_about_links {
+        display: none;
+    }
+
+    .nav_link {
+        display: inline-block;
+        margin-left: 61%;
+    }
+
 }

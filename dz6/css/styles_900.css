@@ -11,6 +11,10 @@
         display: block;
     }
 
+    .nav_link {
+        display: none;
+    }
+
     /*HEADER MENU*/
     .header_menu {
         width: 960px;
@@ -100,4 +104,94 @@
         margin-left: 713px;
     }
 
+    /*SECTION DESCRIPTION*/
+    .description {
+        height: 342px;
+    }
+
+    .section_description {
+        width: 960px;
+        margin: 0 auto;
+        padding-top: 80px;
+    }
+
+    section h2 {
+        margin-bottom: 2%;
+        word-spacing: -3px;
+    }
+
+    section p {
+        line-height: 1.5;
+        word-spacing: -0.5px;
+    }
+
+    .section_about_description {
+        box-sizing: border-box;
+        width: 33%;
+    }
+
+    .section_description_article {
+        padding-left: 20%;
+    }
+
+    .section_about_description:nth-child(2) .section_description_article {
+        padding-left: 26%;
+    }
+
+    .section_about_description:last-child .section_description_article {
+        padding-left: 31%;
+    }
+
+    .section_about_description_sprite {
+        position: absolute;
+        background: url(../img/logos_about.png) no-repeat;
+        width: 29px;
+        height: 31px;
+    }
+
+    .sprite_clue {
+        background-position: 0 0;
+        top: 3px;
+        left: 9px;
+    }
+
+    .sprite_message {
+        background-position: -29px 0;
+        top: 3px;
+        left: 29px;
+    }
+
+    .sprite_notes {
+        background-position: -59px 0;
+        top: 3px;
+        left: 46px;
+    }
+
+    .section_about_links {
+        margin: 0 auto;
+        width: 960px;
+    }
+
+    .section_about_links__nav {
+        width: 100%;
+        margin-left: 13%;
+        margin-top: 17px;
+    }
+
+    .section_about_links__nav li {
+        text-align: right;
+        margin-left: 10%;
+        margin-right: 20%;
+    }
+
+    .section_about_links__nav li:last-child {
+        margin-right: 0;
+        margin-left: 9%;
+    }
+
 }
+
+
+
+
+
