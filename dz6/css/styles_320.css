@@ -344,4 +344,35 @@
         background-position: -707px;
     }
 
+
+    /*BOTTOM*/
+
+    .bottom {
+        display: none;
+    }
+
+    /*FOOTER*/
+    footer {
+        height: 200px;
+    }
+
+    .footer_article {
+        width: 320px;
+    }
+
+    .footer_menu {
+        display: none;
+    }
+
+    .footer_menu_wrapper {
+        width: 100%;
+    }
+
+    .designed {
+        margin-top: 12.5%;
+        margin-left: 28%;
+        width: 100%;
+        float: none;
+        display: inline-block;
+    }
 }

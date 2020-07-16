@@ -189,7 +189,6 @@
         margin-left: 9%;
     }
 
-
     /*SECTION MAIM*/
     .section_main {
         width: 960px;
@@ -246,6 +245,10 @@
         line-height: 1.5;
     }
 
+    .main h5 span {
+        color: #454545;
+    }
+
     .article_update__text {
         margin-top: 2.5%;
         padding-left: 15%;
@@ -270,7 +273,7 @@
         left: 7%;
     }
 
-    .update_nav_link{
+    .update_nav_link {
         display: inline-block;
         margin-left: 79.5%;
         font-size: 18px;
@@ -279,7 +282,6 @@
         text-decoration: none;
         margin-top: 24px;
     }
-
 
     /*BRANDS*/
     .brands_image {
@@ -322,6 +324,68 @@
         background-position: -707px;
     }
 
+    /*BOTTOM*/
+    .bottom .article {
+        width: 33.3%;
+        margin-bottom: 9%;
+    }
+
+    .bottom .column_categories:nth-last-child(2), .bottom .column_categories:last-child {
+        display: none;
+    }
+
+    .pingbuller {
+        margin-top: 10%;
+    }
+
+    .pingbuller p {
+        -webkit-line-clamp: 5;
+        -webkit-box-orient: vertical;
+        margin-bottom: 2%;
+    }
+
+    .pingbuller h1 {
+        margin-bottom: 2%;
+    }
+
+    .column_categories, .column_comments {
+        margin-top: 10%;
+        padding-left: 2%;
+    }
+
+    .column_categories {
+        padding-left: 4%;
+    }
+
+    .column_categories p, .column_comments p {
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+    }
+
+    /*FOOTER*/
+    .footer_article {
+        width: 960px;
+    }
+
+    .footer_menu_wrapper {
+        margin-top: 5%;
+        margin-bottom: 4.5%;
+    }
+
+    .footer_menu a {
+        font-size: 20px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: white;
+        text-shadow: -1px 2px 2px rgba(0, 0, 0, 0.4);
+        padding: 0 42px 1px 1px;
+        width: auto;
+    }
+
+    .designed {
+        margin-right: -35.2%;
+        margin-top: 1%;
+    }
 }
 
 

@@ -233,7 +233,6 @@ section h2, section p {
     color: white;
     font-size: 30px;
     text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
-
 }
 
 section p {
@@ -259,7 +258,7 @@ section h5 {
     border-bottom: 2px solid #e6e6e6;
 }
 
-.main h2, .main p, .main h5 {
+.main h2, .main p, .main h5, .bottom h2, .bottom h1 {
     color: #454545;
     text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
 }
@@ -320,6 +319,70 @@ section h5 {
     position: absolute;
     top: 19px;
 }
+
+.bottom {
+    background: #ececec;
+    width: 100%;
+}
+
+
+.section_bottom .article {
+    float: left;
+    box-sizing: border-box;
+}
+
+.bottom h1 {
+    font-size: 48px;
+}
+
+.bottom p {
+    color: #787878;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+.italic {
+    font-family: Georgia, serif;
+    font-style: italic;
+    color: #c5c5c5;
+}
+
+.bottom h1 span {
+    color: #b9b9b9;
+}
+
+footer {
+    background: url(../img/bg_bottom.png) no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer_menu {
+    float: left;
+}
+
+.designed {
+    float: right;
+    display: inline-block;
+}
+
+.designed p {
+    font-size: 12px;
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+.designed p span {
+    font-weight: 800;
+}
+
+.footer_article {
+    margin: 0 auto;
+}
+
+
+
 
 
 
