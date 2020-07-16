@@ -256,7 +256,7 @@ section h5 {
 .main {
     background: #f9f9f9;
     height: 483px;
-    border-bottom: 1px solid #e6e6e6;
+    border-bottom: 2px solid #e6e6e6;
 }
 
 .main h2, .main p, .main h5 {
@@ -298,6 +298,27 @@ section h5 {
 
 .article_update {
     position: relative;
+}
+
+.brands {
+    border-top: 2px solid white;
+    background: #f9f9f9;
+    height: 120px;
+    border-bottom: 1px solid #e6e6e6;box-sizing: border-box;
+}
+
+.brands_image {
+    display: block;
+    position: relative;
+}
+
+.logo_1, .logo_2, .logo_3, .logo_4, .logo_5, .logo_6 {
+    background: url(../img/logos.png) no-repeat;
+    background-size: cover;
+    width: 67px;
+    height: 66px;
+    position: absolute;
+    top: 19px;
 }
 
 

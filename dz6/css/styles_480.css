@@ -298,4 +298,58 @@
         margin-top: 18px;
     }
 
+
+    /*BRANDS*/
+    .brands {
+        height: 233px;
+    }
+
+    .brands_image {
+        width: 480px;
+        margin: 0 auto;
+
+    }
+
+    .logo_1, .logo_2, .logo_3 {
+        top: 34px;
+    }
+
+    .logo_4, .logo_5, .logo_6 {
+        top: 123px;
+    }
+
+    .logo_1 {
+        left: 17%;
+    }
+
+    .logo_2 {
+        left: 43%;
+        width: 71px;
+        background-position: -136px;
+    }
+
+    .logo_3 {
+        left: 69%;
+        width: 67px;
+        background-position: -271px;
+    }
+
+    .logo_4 {
+        left: 12%;
+        width: 59px;
+        background-position: -406px;
+    }
+
+    .logo_5 {
+        left: 36.5%;
+        width: 112px;
+        background-position: -532px;
+    }
+
+    .logo_6 {
+        left: 70.5%;
+        width: 85px;
+        background-position: -707px;
+    }
+
 }

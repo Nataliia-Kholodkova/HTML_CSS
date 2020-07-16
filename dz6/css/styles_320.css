@@ -287,4 +287,61 @@
         margin-top: 13px;
     }
 
+    /*BRANDS*/
+    .brands {
+        height: 423px;
+    }
+
+    .brands_image {
+        width: 320px;
+        margin: 0 auto;
+
+    }
+
+    .logo_1, .logo_2 {
+        top: 50px;
+    }
+
+    .logo_3, .logo_4 {
+        top: 173px;
+    }
+
+    .logo_5, .logo_6 {
+        top: 281px;
+    }
+
+    .logo_1 {
+        left: 20%;
+    }
+
+    .logo_2 {
+        left: 59%;
+        width: 71px;
+        background-position: -136px;
+    }
+
+    .logo_3 {
+        left: 21%;
+        width: 69px;
+        background-position: -271px;
+    }
+
+    .logo_4 {
+        left: 59%;
+        width: 63px;
+        background-position: -406px;
+    }
+
+    .logo_5 {
+        left: 11.5%;
+        width: 112px;
+        background-position: -532px;
+    }
+
+    .logo_6 {
+        left: 61.5%;
+        width: 85px;
+        background-position: -707px;
+    }
+
 }
