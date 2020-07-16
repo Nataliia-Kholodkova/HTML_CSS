@@ -200,4 +200,119 @@
         margin-left: 10.5%;
     }
 
+    /*SECTION MAIM*/
+    .section_main {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .main_article {
+        width: 39.5%;
+        vertical-align: top;
+
+        margin-top: 13.6%;
+        margin-left: 7%;
+
+    }
+
+    .main_article:last-child {
+        width: 46.5%;
+        margin-left: 4%;
+    }
+
+    .main_article:last-child h2 {
+        font-size: 30px;
+    }
+
+    .main_article:last-child p {
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;;
+    }
+
+    .article_article {
+        padding-left: 9.6%;
+        padding-bottom: 8%;
+    }
+
+    .main_article__article {
+        margin-bottom: 15%;
+        margin-top: 9%;
+    }
+
+    .main_article__img {
+        top: 12px;
+        left: -34px;
+    }
+
+    .main h2 {
+        font-size: 24px;
+    }
+
+    .main span {
+        display: block;
+    }
+
+    .main p, h5 {
+        font-size: 16px;
+    }
+
+    .main_article__article p {
+        letter-spacing: 0.5px;
+        padding-left: 0;
+        margin-top: 2%;
+        -webkit-line-clamp: 6;
+        -webkit-box-orient: vertical;
+    }
+
+    .main_article__article p:last-child {
+        display: none;
+    }
+
+    .article_main_image_nav {
+        margin-left: 34%;
+    }
+
+    .article_update {
+        padding-left: 6.6%;
+        padding-top: 8%;
+    }
+
+    .main h5 {
+        line-height: 1.5;
+    }
+
+    .article_update__text {
+        margin-top: 3.5%;
+        padding-left: 20%;
+        margin-bottom: 6px;
+    }
+
+    .sprite_1 {
+        background-position: 0 0;
+        top: 27%;
+        left: 7%;
+    }
+
+    .sprite_2 {
+        background-position: 0 -45px;
+        top: 53%;
+        left: 7%;
+    }
+
+    .sprite_3 {
+        background-position: 0 -93px;
+        top: 79%;
+        left: 7%;
+    }
+
+    .update_nav_link {
+        display: inline-block;
+        margin-left: 73.5%;
+        font-size: 18px;
+        color: #454545;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+        text-decoration: none;
+        margin-top: 18px;
+    }
+
 }

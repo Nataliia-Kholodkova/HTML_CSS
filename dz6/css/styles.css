@@ -199,7 +199,6 @@ header {
 
 section {
     width: 100%;
-
 }
 
 .description {
@@ -213,18 +212,6 @@ section {
     margin: 0 auto;
     position: relative;
     display: block;
-}
-
-section h2 {
-    font-size: 30px;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
-}
-
-section p {
-    font-family: "Open Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 300;
-    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
 }
 
 .section_about_links a, .nav_link {
@@ -244,13 +231,74 @@ section p {
 
 section h2, section p {
     color: white;
+    font-size: 30px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+
+}
+
+section p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
     overflow: hidden;
     display: -webkit-box;
     -webkit-line-clamp: 5;
     -webkit-box-orient: vertical;
 }
 
+section h5 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
 
+.main {
+    background: #f9f9f9;
+    height: 483px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.main h2, .main p, .main h5 {
+    color: #454545;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+}
+
+.main h2 {
+    margin-bottom: 0;
+}
+
+.main span {
+    color: #edbfff;
+}
+
+.main_article {
+    position: relative;
+    box-sizing: border-box;
+    height: 298px;
+}
+
+.article_article {
+    background: url(../img/bg_article.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main_article__img {
+    position: absolute;
+}
+
+.main_updates_update_sprite {
+    position: absolute;
+    background: url(../img/updates_logos.png) no-repeat;
+    background-size: cover;
+    width: 47px;
+    height: 47px;
+}
+
+.article_update {
+    position: relative;
+}
 
 
 

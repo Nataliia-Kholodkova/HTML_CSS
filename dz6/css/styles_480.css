@@ -182,4 +182,120 @@
         margin-left: 82%;
     }
 
+    /*SECTION MAIM*/
+    .main {
+        height: 780px;
+    }
+
+    .section_main {
+        width: 480px;
+        margin: 0 auto;
+    }
+
+    .main_article {
+        width: 88%;
+        vertical-align: top;
+        margin-top: 12.6%;
+        margin-left: 9%;
+        height: auto;
+
+    }
+
+    .main_article:last-child {
+        margin-left: 11%;
+        margin-top: 3%;
+    }
+
+    .main_article:last-child h2 {
+        font-size: 30px;
+    }
+
+    .main_article:last-child p {
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;;
+    }
+
+    .article_article {
+        padding-left: 9%;
+        padding-bottom: 0;
+    }
+
+    .main_article__article {
+        margin-bottom: 15%;
+        margin-top: 9%;
+    }
+
+    .main_article__img {
+        top: 22px;
+        left: -25px;
+    }
+
+    .main h2 {
+        font-size: 30px;
+    }
+
+    .main p, h5 {
+        font-size: 16px;
+    }
+
+    .main_article__article p {
+        letter-spacing: 0.5px;
+        padding-left: 0;
+        margin-top: 2%;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;
+    }
+
+    .main_article__article p:last-child {
+        display: none;
+    }
+
+    .article_main_image_nav {
+        margin-left: 38%;
+    }
+
+    .article_update {
+        padding-left: 6.6%;
+        padding-top: 8%;
+    }
+
+    .main h5 {
+        line-height: 1.5;
+    }
+
+    .article_update__text {
+        margin-top: 3.5%;
+        padding-left: 17%;
+        margin-bottom: 6px;
+        padding-right: 15%;
+    }
+
+    .sprite_1 {
+        background-position: 0 0;
+        top: 29%;
+        left: 7%;
+    }
+
+    .sprite_2 {
+        background-position: 0 -45px;
+        top: 54%;
+        left: 7%;
+    }
+
+    .sprite_3 {
+        background-position: 0 -93px;
+        top: 79%;
+        left: 7%;
+    }
+
+    .update_nav_link {
+        display: inline-block;
+        margin-left: 66%;
+        font-size: 18px;
+        color: #454545;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 1);
+        text-decoration: none;
+        margin-top: 18px;
+    }
+
 }
