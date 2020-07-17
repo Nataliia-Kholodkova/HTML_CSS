@@ -19,6 +19,10 @@
         display: none;
     }
 
+    .dropped {
+        display: none;
+    }
+
     /*HEADER MENU*/
     .header_menu {
         width: 768px;
